@@ -60,12 +60,7 @@ class HomeViewModel: ObservableObject {
     }
     
     private func mapGlobalMarketData(marketDataModel: MarketDataModel?) -> [StatisticModel] {
-        var stats: [StatisticModel] = [
-            StatisticModel(title: "Title", value: "Value", percentageChange: 1),
-            StatisticModel(title: "Title", value: "Value"),
-            StatisticModel(title: "Title", value: "Value"),
-            StatisticModel(title: "Title", value: "Value", percentageChange: -7)
-        ]
+        var stats: [StatisticModel] = []
         
         guard let data = marketDataModel else {
             return stats
