@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		048F29032E8B228300D67162 /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F29022E8B228300D67162 /* PortfolioView.swift */; };
 		0498BC122E7C9AAF0021B41D /* MarketDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498BC112E7C9AAE0021B41D /* MarketDataModel.swift */; };
 		0498BC142E7CA3680021B41D /* MarketDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498BC132E7CA3680021B41D /* MarketDataService.swift */; };
 		04DE035E2E5611C500EA5A36 /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DE033B2E5611C500EA5A36 /* CircleButtonAnimationView.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		048F29022E8B228300D67162 /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
 		0498BC112E7C9AAE0021B41D /* MarketDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataModel.swift; sourceTree = "<group>"; };
 		0498BC132E7CA3680021B41D /* MarketDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataService.swift; sourceTree = "<group>"; };
 		04DE033B2E5611C500EA5A36 /* CircleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationView.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				04DE03452E5611C500EA5A36 /* CoinRowView.swift */,
 				04DE03462E5611C500EA5A36 /* HomeView.swift */,
 				04DE03772E58FE2A00EA5A36 /* HomeStatsView.swift */,
+				048F29022E8B228300D67162 /* PortfolioView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 				04DE036B2E5611C500EA5A36 /* CoinDataService.swift in Sources */,
 				04DE036C2E5611C500EA5A36 /* CoinImageService.swift in Sources */,
 				04DE036D2E5611C500EA5A36 /* LocalFileManager.swift in Sources */,
+				048F29032E8B228300D67162 /* PortfolioView.swift in Sources */,
 				04DE036E2E5611C500EA5A36 /* NetworkingManager.swift in Sources */,
 				04DE036F2E5611C500EA5A36 /* ContentView.swift in Sources */,
 				04DE03702E5611C500EA5A36 /* CryptoApp.swift in Sources */,
