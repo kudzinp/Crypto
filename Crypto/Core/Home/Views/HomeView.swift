@@ -19,8 +19,10 @@ struct HomeView: View {
             Color.theme.background
                 .ignoresSafeArea()
                 .sheet(isPresented: $showPortfolioView, content: {
-                    PortfolioView()
-                        .environmentObject(vm)
+                    NavigationView {
+                        PortfolioView()
+                            .environmentObject(vm)
+                    }
                 })
             
             // content layer
