@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043560E92EF497A90020564E /* CoinLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043560E82EF497A90020564E /* CoinLogoView.swift */; };
 		044D60482E945E43007B7508 /* XMarkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D60472E945E43007B7508 /* XMarkButton.swift */; };
 		048F29032E8B228300D67162 /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F29022E8B228300D67162 /* PortfolioView.swift */; };
 		0498BC122E7C9AAF0021B41D /* MarketDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498BC112E7C9AAE0021B41D /* MarketDataModel.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		043560E82EF497A90020564E /* CoinLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinLogoView.swift; sourceTree = "<group>"; };
 		044D60472E945E43007B7508 /* XMarkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMarkButton.swift; sourceTree = "<group>"; };
 		048F29022E8B228300D67162 /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
 		0498BC112E7C9AAE0021B41D /* MarketDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataModel.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 			children = (
 				04DE033E2E5611C500EA5A36 /* CoinImageView.swift */,
 				04DE033F2E5611C500EA5A36 /* CoinImageViewModel.swift */,
+				043560E82EF497A90020564E /* CoinLogoView.swift */,
 			);
 			path = CoinImage;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				04DE03682E5611C500EA5A36 /* Double.swift in Sources */,
 				04DE03692E5611C500EA5A36 /* UIApplication.swift in Sources */,
 				04DE036A2E5611C500EA5A36 /* CoinModel.swift in Sources */,
+				043560E92EF497A90020564E /* CoinLogoView.swift in Sources */,
 				04DE03782E58FE2A00EA5A36 /* HomeStatsView.swift in Sources */,
 				0498BC142E7CA3680021B41D /* MarketDataService.swift in Sources */,
 				04DE036B2E5611C500EA5A36 /* CoinDataService.swift in Sources */,
