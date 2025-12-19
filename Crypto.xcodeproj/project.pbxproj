@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		043560E92EF497A90020564E /* CoinLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043560E82EF497A90020564E /* CoinLogoView.swift */; };
+		043560EC2EF5EA870020564E /* PortfolioContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 043560EA2EF5EA870020564E /* PortfolioContainer.xcdatamodeld */; };
+		043560EE2EF5EB8C0020564E /* PortfolioDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043560ED2EF5EB8C0020564E /* PortfolioDataService.swift */; };
 		044D60482E945E43007B7508 /* XMarkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D60472E945E43007B7508 /* XMarkButton.swift */; };
 		048F29032E8B228300D67162 /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F29022E8B228300D67162 /* PortfolioView.swift */; };
 		0498BC122E7C9AAF0021B41D /* MarketDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498BC112E7C9AAE0021B41D /* MarketDataModel.swift */; };
@@ -40,6 +42,8 @@
 
 /* Begin PBXFileReference section */
 		043560E82EF497A90020564E /* CoinLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinLogoView.swift; sourceTree = "<group>"; };
+		043560EB2EF5EA870020564E /* PortfolioContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PortfolioContainer.xcdatamodel; sourceTree = "<group>"; };
+		043560ED2EF5EB8C0020564E /* PortfolioDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioDataService.swift; sourceTree = "<group>"; };
 		044D60472E945E43007B7508 /* XMarkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMarkButton.swift; sourceTree = "<group>"; };
 		048F29022E8B228300D67162 /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
 		0498BC112E7C9AAE0021B41D /* MarketDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataModel.swift; sourceTree = "<group>"; };
@@ -174,6 +178,7 @@
 				04DE03502E5611C500EA5A36 /* CoinModel.swift */,
 				04DE03732E58F2CC00EA5A36 /* StatisticModel.swift */,
 				0498BC112E7C9AAE0021B41D /* MarketDataModel.swift */,
+				043560EA2EF5EA870020564E /* PortfolioContainer.xcdatamodeld */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -192,6 +197,7 @@
 				04DE03542E5611C500EA5A36 /* CoinDataService.swift */,
 				04DE03552E5611C500EA5A36 /* CoinImageService.swift */,
 				0498BC132E7CA3680021B41D /* MarketDataService.swift */,
+				043560ED2EF5EB8C0020564E /* PortfolioDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -311,6 +317,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043560EC2EF5EA870020564E /* PortfolioContainer.xcdatamodeld in Sources */,
 				04DE03742E58F2CC00EA5A36 /* StatisticModel.swift in Sources */,
 				04DE035E2E5611C500EA5A36 /* CircleButtonAnimationView.swift in Sources */,
 				04DE035F2E5611C500EA5A36 /* CircleButtonView.swift in Sources */,
@@ -338,6 +345,7 @@
 				04DE036E2E5611C500EA5A36 /* NetworkingManager.swift in Sources */,
 				04DE036F2E5611C500EA5A36 /* ContentView.swift in Sources */,
 				04DE03702E5611C500EA5A36 /* CryptoApp.swift in Sources */,
+				043560EE2EF5EB8C0020564E /* PortfolioDataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,6 +553,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		043560EA2EF5EA870020564E /* PortfolioContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				043560EB2EF5EA870020564E /* PortfolioContainer.xcdatamodel */,
+			);
+			currentVersion = 043560EB2EF5EA870020564E /* PortfolioContainer.xcdatamodel */;
+			path = PortfolioContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 04DFC0862D9D8FE1005B347B /* Project object */;
 }
