@@ -30,9 +30,9 @@
             filePath = "Crypto/Core/Home/ViewModels/HomeViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "87"
-            endingLineNumber = "87"
-            landmarkName = "mapGlobalMarketData(marketDataModel:)"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "mapGlobalMarketData(marketDataModel:portfolioCoins:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
