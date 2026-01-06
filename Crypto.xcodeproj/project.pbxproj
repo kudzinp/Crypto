@@ -11,6 +11,7 @@
 		043560EC2EF5EA870020564E /* PortfolioContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 043560EA2EF5EA870020564E /* PortfolioContainer.xcdatamodeld */; };
 		043560EE2EF5EB8C0020564E /* PortfolioDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043560ED2EF5EB8C0020564E /* PortfolioDataService.swift */; };
 		043560F02F047D100020564E /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043560EF2F047D100020564E /* HapticManager.swift */; };
+		043A21392F0D96F800D122EA /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A21382F0D96F800D122EA /* DetailView.swift */; };
 		044D60482E945E43007B7508 /* XMarkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D60472E945E43007B7508 /* XMarkButton.swift */; };
 		048F29032E8B228300D67162 /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F29022E8B228300D67162 /* PortfolioView.swift */; };
 		0498BC122E7C9AAF0021B41D /* MarketDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498BC112E7C9AAE0021B41D /* MarketDataModel.swift */; };
@@ -46,6 +47,7 @@
 		043560EB2EF5EA870020564E /* PortfolioContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PortfolioContainer.xcdatamodel; sourceTree = "<group>"; };
 		043560ED2EF5EB8C0020564E /* PortfolioDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioDataService.swift; sourceTree = "<group>"; };
 		043560EF2F047D100020564E /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		043A21382F0D96F800D122EA /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		044D60472E945E43007B7508 /* XMarkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMarkButton.swift; sourceTree = "<group>"; };
 		048F29022E8B228300D67162 /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
 		0498BC112E7C9AAE0021B41D /* MarketDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataModel.swift; sourceTree = "<group>"; };
@@ -88,6 +90,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		043A21352F0D963A00D122EA /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				043A21362F0D968800D122EA /* ViewModels */,
+				043A21372F0D969F00D122EA /* Views */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		043A21362F0D968800D122EA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		043A21372F0D969F00D122EA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				043A21382F0D96F800D122EA /* DetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		04DE033D2E5611C500EA5A36 /* CircleButton */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +178,7 @@
 			children = (
 				04DE03422E5611C500EA5A36 /* Components */,
 				04DE03482E5611C500EA5A36 /* Home */,
+				043A21352F0D963A00D122EA /* Detail */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -336,6 +363,7 @@
 				04DE03662E5611C500EA5A36 /* DeveloperPreview.swift in Sources */,
 				04DE03672E5611C500EA5A36 /* Color.swift in Sources */,
 				04DE03682E5611C500EA5A36 /* Double.swift in Sources */,
+				043A21392F0D96F800D122EA /* DetailView.swift in Sources */,
 				043560F02F047D100020564E /* HapticManager.swift in Sources */,
 				04DE03692E5611C500EA5A36 /* UIApplication.swift in Sources */,
 				04DE036A2E5611C500EA5A36 /* CoinModel.swift in Sources */,
