@@ -46,6 +46,7 @@
 		04DE03742E58F2CC00EA5A36 /* StatisticModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DE03732E58F2CC00EA5A36 /* StatisticModel.swift */; };
 		04DE03762E58F4CE00EA5A36 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DE03752E58F4CE00EA5A36 /* StatisticView.swift */; };
 		04DE03782E58FE2A00EA5A36 /* HomeStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DE03772E58FE2A00EA5A36 /* HomeStatsView.swift */; };
+		04F80FBB2F2D53BD008DAAC8 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F80FBA2F2D53BD008DAAC8 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +90,7 @@
 		04DE03752E58F4CE00EA5A36 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
 		04DE03772E58FE2A00EA5A36 /* HomeStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStatsView.swift; sourceTree = "<group>"; };
 		04DFC08E2D9D8FE1005B347B /* Crypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F80FBA2F2D53BD008DAAC8 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +195,7 @@
 				04DE03422E5611C500EA5A36 /* Components */,
 				04DE03482E5611C500EA5A36 /* Home */,
 				043A21352F0D963A00D122EA /* Detail */,
+				04F80FB82F2D5343008DAAC8 /* Settings */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -290,6 +293,22 @@
 				04DFC08E2D9D8FE1005B347B /* Crypto.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		04F80FB82F2D5343008DAAC8 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				04F80FB92F2D537D008DAAC8 /* Views */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		04F80FB92F2D537D008DAAC8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04F80FBA2F2D53BD008DAAC8 /* SettingsView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -402,6 +421,7 @@
 				042DE2E42F0DB45A001E8A93 /* CoinDetailDataService.swift in Sources */,
 				042DE2E22F0DB3F0001E8A93 /* DetailViewModel.swift in Sources */,
 				043560EE2EF5EB8C0020564E /* PortfolioDataService.swift in Sources */,
+				04F80FBB2F2D53BD008DAAC8 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
