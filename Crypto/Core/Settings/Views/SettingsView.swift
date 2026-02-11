@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct SettingsView: View {
+    @Environment(\.dismiss) private var dismiss
     
     let defaultURL = URL(string: "https://www.google.com")!
     let youtubeURL = URL(string: "https://www.youtube.com")!
@@ -40,6 +41,9 @@ struct SettingsView: View {
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
                     XMarkButton()
+                        .onTapGesture {
+                            dismiss()
+                        }
                 }
             }
         }
@@ -91,8 +95,9 @@ extension SettingsView {
     private var developerSection: some View {
         Section(header: Text("DEVELOPER")) {
             VStack(alignment: .leading) {
-                Image("logo")
+                Image("developer")
                     .resizable()
+                    .padding(3)
                     .frame(width: 100, height: 100)
                     .clipShape(RoundedRectangle(cornerRadius: 20))
                 Text("This app was developed by unknown, but very talented person. It uses SwiftUI and is written 100% in Swift. The project benefits from multi-threading, publishers/subscribers and data persistance.")

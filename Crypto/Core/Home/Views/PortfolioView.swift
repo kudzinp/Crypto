@@ -39,6 +39,7 @@ struct PortfolioView: View {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     trailingNavBarButtons
                 }
+                .sharedBackgroundVisibility(.hidden)
             })
             .onChange(of: vm.searchText, perform: { value in
                 if value == "" {

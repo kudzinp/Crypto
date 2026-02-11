@@ -61,6 +61,7 @@ struct DetailView: View {
             ToolbarItem(placement: .navigationBarTrailing) {
                 navigationBarTrailingItems
             }
+            .sharedBackgroundVisibility(.hidden)
         }
     }
 }
